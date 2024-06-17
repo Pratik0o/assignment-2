@@ -1,0 +1,42 @@
+ 
+ body {
+    background-image: url(the\ dark\ knight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+}
+h2,h3,h4,h5 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.cast, .director, .release-date, .reviews {
+    margin: 20px 0;
+}
+.reviews blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+.website {
+    margin-top: 30px;
+}
+.website a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.website a:hover {
+    text-decoration: underline;
+}
